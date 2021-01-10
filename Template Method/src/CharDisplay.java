@@ -20,5 +20,4 @@ public class CharDisplay extends AbstractDisplay {
 	public void close() {
 		System.out.println(">>");
 	}
-
 }
