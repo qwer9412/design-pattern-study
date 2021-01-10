@@ -1,6 +1,4 @@
-package factory;
-
-public abstract class Factory {
+public abstract class MyAbstractFactory {
 	public final Product create(String owner) {
 		Product product = createProduct(owner);
 		registerProduct(product);
