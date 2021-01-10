@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Main {
 
 	public static void main(String[] args) {
-		FileIo f = new FileProperties();
+		MyClass f = new MyClass();
 		try {
 			f.readFromFile("file.txt");
 			String a = f.getValue("year");
